@@ -30,7 +30,7 @@ async def run(serve_forever=True):
     interpreter = RasaNLUInterpreter(nlu_model)
     agent = Agent.load('./models/core', interpreter=interpreter)
     input_channel = SlackInput(
-        slack_token="xoxb-226167828518-920643594710-ZPs70XNUPcagSMW61k6U5znN"
+        slack_token="xoxb-226167828518-920643594710-QwGV9EjjOuFiATFjUGU1Kfn1"
         # this is the `bot_user_o_auth_access_token`
         #slack_channel="YOUR_SLACK_CHANNEL"
             # the name of your channel to which the bot posts (optional)
