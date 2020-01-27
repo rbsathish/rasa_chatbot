@@ -1,0 +1,70 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ur_name
+  # - biriyani
+  - egg_biriyani
+  - Chicken_Bone_Less_Pulao
+  - Keema_Biryani
+  - Special_Paneer_Biryani
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_name
+# - utter_chicken_biriyani
+# - utter_chicken_dum_biriyani
+- utter_egg_biriyani
+- utter_Chicken_Bone_Less_Pulao
+- utter_Keema_Biryani
+- utter_Special_Paneer_Biryani
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_name:
+  - text: "my name rb urs?"
+
+  # utter_chicken_biriyani:
+  # - text: "chicken biriyani on its way"
+
+  # utter_chicken_dum_biriyani:
+  # - text: "dum will take time"
+
+  utter_egg_biriyani:
+  - text: "you can make it in your home itself dude"
+
+  utter_Chicken_Bone_Less_Pulao:
+  - text: "Chicken_Bone_Less_Pulao on its way but with bone"
+  utter_Keema_Biryani:
+  - text: "you want Keema_Biryani omg"
+
+  utter_Special_Paneer_Biryani:
+  - text: "we dont have paneer so no special paneer biriyani today"
+
