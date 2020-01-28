@@ -1,6 +1,6 @@
-## happy path
+## welcome
 * greet
-  - utter_greet
+ - utter_ask_howcanhelp
 * mood_great
   - utter_happy
 
@@ -59,3 +59,7 @@
 ## Special_Paneer_Biryani
 * Special_Paneer_Biryani
   - utter_Special_Paneer_Biryani
+
+<!-- ## price_querry
+* price_querry
+  - utter_price_querry -->

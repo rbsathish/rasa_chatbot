@@ -1,3 +1,12 @@
+slots:
+  info:
+    type: text
+  price:
+    type: text
+  food:
+    type: text
+
+
 intents:
   - greet
   - goodbye
@@ -12,7 +21,12 @@ intents:
   - Chicken_Bone_Less_Pulao
   - Keema_Biryani
   - Special_Paneer_Biryani
-
+  - request_info
+  - price_querry
+entities:
+- info
+- price
+- food 
 actions:
 - utter_greet
 - utter_cheer_up
@@ -27,14 +41,18 @@ actions:
 - utter_Chicken_Bone_Less_Pulao
 - utter_Keema_Biryani
 - utter_Special_Paneer_Biryani
+- utter_ask_howcanhelp
+
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "yes"
+  utter_ask_howcanhelp:
+  - text: "Hey! How are you, how can i help you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    # image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"

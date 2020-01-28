@@ -1,10 +1,17 @@
 ## intent:greet
+- hi there
+- hello there
 - hey
-- hello
 - hi
+- hey bot
 - good morning
+- goodmorning
+- hello
+- goodevening
+- goodafternoon
 - good evening
-- hey there
+- morning
+- good afternoon
 
 ## intent:goodbye
 - bye
@@ -145,6 +152,35 @@
 - special paneer biryani	
 - special paneer brioni	
 - special paneer briyani	
+
+## intent:request_info
+- do you have their [address](info)
+- do you have its [phone number](info)
+- can i have their [phone number](info)
+- what is the [phone number](info) of the restaurant
+- what is their [address](info)
+- may i have the [address](info) of the restaurant
+- whats their [address](info)
+- do you have their [phone number](info)
+- give me their [phone number](info)
+- whats their [phone number](info)
+- do you have its [address](info)
+- may i have the [phone number](info) of the restaurant
+- what is their [phone number](info)
+- give me their [address](info)
+- can i have their [address](info)
+- what is the [address](info) of the restaurant
+
+## intent:price_querry
+- what is the [price](price) of [chicken_biriyani](food)
+- what is the [price](price) of [veg_biriyani](food)
+- [chicken_biriyani](food)[price](price)
+- [veg_biriyani](food)[price](price)
+- [cost](price) of [chicken_biriyani](food) 
+- [cost](price) of [veg_biriyani](food) 
+- what is the [cost](price) of [chicken_biriyani](food)
+- what is the [cost](price) of [veg_biriyani](food)
+
 
 
 
