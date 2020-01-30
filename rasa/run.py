@@ -13,7 +13,7 @@ from rasa.core.channels.slack import SlackInput
 #     interpreter = RasaNLUInterpreter(nlu_model)
 #     agent = Agent.load('./models/core', interpreter=interpreter)
 # input_channel = SlackInput(
-#         slack_token="xoxb-226167828518-917903335220-JgysfOc3fjSAqgmRcrkVSHB6"
+#         slack_token="xoxb-"
 #         # this is the `bot_user_o_auth_access_token`
 #         #slack_channel="YOUR_SLACK_CHANNEL"
 #             # the name of your channel to which the bot posts (optional)
@@ -30,7 +30,7 @@ async def run(serve_forever=True):
     interpreter = RasaNLUInterpreter(nlu_model)
     agent = Agent.load('./models/core', interpreter=interpreter)
     input_channel = SlackInput(
-        slack_token="xoxb-226167828518-920643594710-UYyMFjcDkQAlgl8Yv4YveMEs"
+        slack_token="xoxb-token"
         # this is the `bot_user_o_auth_access_token`
         #slack_channel="YOUR_SLACK_CHANNEL"
             # the name of your channel to which the bot posts (optional)
@@ -42,4 +42,4 @@ async def run(serve_forever=True):
     # return agent
     s = agent.handle_channels([input_channel], 5055, serve_forever=True)
     
-    # https://hooks.slack.com/services/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
+    # https://hooks.slack.com/services/
