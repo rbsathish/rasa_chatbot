@@ -1,88 +1,106 @@
+actions:
+- utter_Chicken_Bone_Less_Pulao
+- utter_Double_Ka_Meeta
+- utter_Gulab_Jamun
+- utter_Keema_Biryani
+- utter_Ras_Malai
+- utter_Special_Paneer_Biryani
+- utter_ask_howcanhelp
+- utter_available_deserts
+- utter_carrot_halwa
+- utter_cheer_up
+- utter_choose_any_deserts
+- utter_did_that_help
+- utter_egg_biriyani
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_name
+- utter_available_biriyani
+- utter_choose_which_biriyani_you_want
+entities:
+- deserts
+- food
+- info
+- price
+- biriyani
+intents:
+- Gulab_Jamun
+- deserts
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- ur_name
+- egg_biriyani
+- Chicken_Bone_Less_Pulao
+- Keema_Biryani
+- Special_Paneer_Biryani
+- request_info
+- price_querry
+- carrot_halwa
+- Double_Ka_Meeta
+- Ras_Malai
+- biriyani
 slots:
+  deserts:
+    type: text
+  food:
+    type: text
   info:
     type: text
   price:
     type: text
-  food:
+  biriyani:
     type: text
-
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - ur_name
-  # - biriyani
-  - egg_biriyani
-  - Chicken_Bone_Less_Pulao
-  - Keema_Biryani
-  - Special_Paneer_Biryani
-  - request_info
-  - price_querry
-entities:
-- info
-- price
-- food 
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
-- utter_name
-# - utter_chicken_biriyani
-# - utter_chicken_dum_biriyani
-- utter_egg_biriyani
-- utter_Chicken_Bone_Less_Pulao
-- utter_Keema_Biryani
-- utter_Special_Paneer_Biryani
-- utter_ask_howcanhelp
-
-
 templates:
-  utter_greet:
-  - text: "yes"
-  utter_ask_howcanhelp:
-  - text: "Hey! How are you, how can i help you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    # image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  utter_name:
-  - text: "my name rb urs?"
-
-  # utter_chicken_biriyani:
-  # - text: "chicken biriyani on its way"
-
-  # utter_chicken_dum_biriyani:
-  # - text: "dum will take time"
-
-  utter_egg_biriyani:
-  - text: "you can make it in your home itself dude"
-
   utter_Chicken_Bone_Less_Pulao:
-  - text: "Chicken_Bone_Less_Pulao on its way but with bone"
+  - text: Chicken_Bone_Less_Pulao on its way but with bone(chicken_bone_less_pulao)
+  utter_Double_Ka_Meeta:
+  - text: sorry we dont have currently(Double_Ka_Meeta)
+  utter_Gulab_Jamun:
+  - text: ya we have(Gulab_Jamun)
   utter_Keema_Biryani:
-  - text: "you want Keema_Biryani omg"
-
+  - text: you want Keema_Biryani omg(keema_biriyani)
+  utter_Ras_Malai:
+  - text: how many rasa malai you want(rasa_malai)
   utter_Special_Paneer_Biryani:
-  - text: "we dont have paneer so no special paneer biriyani today"
+  - text: we dont have paneer so no special paneer biriyani today(sp_paneer_biryani)
+  utter_ask_howcanhelp:
+  - text: Hey! How are you, how can i help you?
+  utter_available_deserts:
+  - text: " carrot_halwa \n Double_ka_meeta \n Gulab_Jamun \n Ras_malai \n this are all\
+      \ available deserts"
+  utter_carrot_halwa:
+  - text: tat orange color vegitable im i right(carrot_halwa)
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+  utter_choose_any_deserts:
+  - text: choose any deserts from the above menu
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_egg_biriyani:
+  - text: you can make it in your home itself dude(egg_biriyani)
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: yes
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_name:
+  - text: my name rb urs?
+  utter_available_biriyani:
+  - text: "choose veg biriyani or non veg \n\n vegbiriyani:\n\t Special_Paneer_Biryani \n\n nonvegbiriyani: \n\t egg_biriyani \n\t Chicken_Bone_Less_Pulao \n\t Keema_Biryani"
+  utter_choose_which_biriyani_you_want:
+  - text: "choosee your biriyani from the above menu"
+  # utter_vegbiriyani:
+  # - text: "available veg biriyani \n Special_Paneer_Biryani"
+  # utter_nonvegbiriyani:
+  # - text: "available non veg biriyani \n egg_biriyani \n Chicken_Bone_Less_Pulao \n Keema_Biryani"
 
