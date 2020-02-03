@@ -73,7 +73,7 @@ templates:
   utter_ask_howcanhelp:
   - text: Hey! How are you, how can i help you?
   utter_available_deserts:
-  - text: " carrot_halwa \n Double_ka_meeta \n Gulab_Jamun \n Ras_malai \n this are all\
+  - text: "Available Deserts:\n\n carrot_halwa \n Double_ka_meeta \n Gulab_Jamun \n Ras_malai \n this are all\
       \ available deserts"
   utter_carrot_halwa:
   - text: tat orange color vegitable im i right(carrot_halwa)
@@ -96,7 +96,7 @@ templates:
   utter_name:
   - text: my name rb urs?
   utter_available_biriyani:
-  - text: "choose veg biriyani or non veg \n\n vegbiriyani:\n\t Special_Paneer_Biryani \n\n nonvegbiriyani: \n\t egg_biriyani \n\t Chicken_Bone_Less_Pulao \n\t Keema_Biryani"
+  - text: "Available Biriyani \n\n vegbiriyani:\n\t Special_Paneer_Biryani \n\n nonvegbiriyani: \n\t egg_biriyani \n\t Chicken_Bone_Less_Pulao \n\t Keema_Biryani"
   utter_choose_which_biriyani_you_want:
   - text: "choosee your biriyani from the above menu"
   # utter_vegbiriyani:
