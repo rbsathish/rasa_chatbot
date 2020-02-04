@@ -69,6 +69,13 @@
 - keema biriyani
 - keema brioni
 - keema briyani
+- I would like to order keema Biryani
+- i want keema biriyani
+- i want keeema biriyani
+- kema biriyani need
+- keema biriyani need
+- i want to order keema biriyani
+- i want to order keemaa biriyani
 
 <!-- ## intent:vegbiriyani -->
 
@@ -101,6 +108,12 @@
 - special paneer biryani
 - special paneer brioni
 - special paneer briyani
+- I would like to order Paneer Biryani
+- i want paneer biriyani
+- i want special paneer biriyani
+- paneer biriyani need
+- i want to order special paneer biriyani
+- i want to order paneer biriyani
 
 ## intent:affirm
 - yes
