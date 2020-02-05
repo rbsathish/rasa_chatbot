@@ -66,15 +66,8 @@ async def parse(msg):
         # print("bot_response: ",response["text"])
         text = response["text"]
         print("bot_response",text)
-        from gtts import gTTS 
-        import os 
-        # Language in which you want to convert 
-        language = 'en'
-        texttospeech = gTTS(text=text, lang=language, slow=False)
-        texttospeech.save("reply.wav")
-        os.system("reply.wav")
-    # else:
-    #     print("sorry i cant hear")
+        from st_ts.text_to_speach import tts
+        text_to_speech = tts(text)
     return responses
 
 if __name__ == "__main__":

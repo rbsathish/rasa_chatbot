@@ -1,31 +1,12 @@
 #text to speach
-
-# Import the required module for text 
-# to speech conversion 
 from gtts import gTTS 
-
-# This module is imported so that we can 
-# play the converted audio 
 import os 
-
-# The text that you want to convert to audio 
-mytext = 'Welcome to geeksforgeeks!'
-
-# Language in which you want to convert 
-language = 'en'
-
-# Passing the text and language to the engine, 
-# here we have marked slow=False. Which tells 
-# the module that the converted audio should 
-# have a high speed 
-myobj = gTTS(text=mytext, lang=language, slow=False) 
-
-# Saving the converted audio in a mp3 file named 
-# welcome 
-myobj.save("welcome.mp3") 
-
-# Playing the converted file 
-os.system("welcome.mp3") 
-
-
-
+def tts(text):
+    # Language in which you want to convert 
+    language = 'en'
+    sentence = text.replace('\'', '')
+    print("sentence",sentence)
+    texttospeech = gTTS(text=sentence, lang=language, slow=False)
+    texttospeech.save("reply.wav")
+    os.system("reply.wav")
+    return texttospeech
