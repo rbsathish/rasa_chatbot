@@ -1,7 +1,0 @@
-"@addon:addon","@addon:addon"
-"@custom:custom","@custom:custom"
-"@number:number @addon:addon","@number:number @addon:addon"
-"@number:number @custom:custom","@number:number @custom:custom"
-"@number:number from @custom:custom","@number:number from @custom:custom"
-"@number:number is @custom:custom","@number:number is @custom:custom"
-"@number:number with @custom:custom","@number:number with @custom:custom"
