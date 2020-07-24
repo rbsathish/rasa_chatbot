@@ -1,2 +1,2 @@
-# rbrasa
+# rasa
 creating chatbot using rasa
