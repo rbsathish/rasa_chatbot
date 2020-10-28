@@ -1,7 +1,7 @@
 # rasa
 
 First you need to install requirements.txt
-
+This is an basic hotel menus chat bot
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 normal shell chat:
